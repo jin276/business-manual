@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 1200px;
+  margin: 64px auto 0;
+}
+
+.title {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+h1 {
+  text-align: center;
+  /* margin: 0 auto; */
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.container label, .container input {
+font-weight: bold;
+}

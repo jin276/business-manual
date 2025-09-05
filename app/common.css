@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background:#ccc;
+  margin-bottom: 64px;
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  /* z-index: 1; */
+}
+
+.header-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.header-menu a {
+  color: black;
+  margin-left: 32px;
+  text-decoration: none;
+}
+
+.header-menu form {
+  display: inline-block;
+}
+
+.header-menu a:hover{
+  opacity: 0.6;
+}
+
+main {
+  margin-bottom: 64px;
+  padding: 0;
+  max-width: 100%;
+}
+
+.loginlogout p {
+  margin: 0;
+}
+
+.loginlogout .logout {
+  display: block;
+  text-align: center;
+}

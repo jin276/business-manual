@@ -1,0 +1,30 @@
+# vim起動
+crontab -e
+
+# 挿入モードに切り替える
+i
+
+# command mode
+escキー
+
+# 保存して終了
+command mode
+:wq
+enter
+
+# 保存せずに終了
+:q!
+
+# 保存した内容を確認
+crontab -l
+
+# cron起動確認　
+service cron status
+
+# cron起動確認してfailedの場合　
+service cron start
+
+#現在時刻
+date
+
+

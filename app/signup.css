@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 1200px;
+  margin: 64px auto 0;
+}
+
+.title {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.account label {
+  display: inline-block;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+table {
+  border: none;
+  margin: 0 auto 12px;
+}
+
+table tr {
+  text-align: left;
+}
+
+table th {
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 5px 3px;
+}
+
+.signup-btn {
+  font-weight: bold;
+  color: #090909;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-right: 16px;
+  text-align: center;
+}
+
+.signup-btn a {
+  font-size: 14px;
+}
+
+#passwordBlank p {
+  color: red;
+}
+
+#passwordBlank.hidden {
+  display: none;
+}
+
+#passwordLen p {
+  color: red;
+}
+
+#passwordLen.hidden {
+  display: none;
+}
+
+#passwordError p {
+  color: red;
+}
+
+#passwordError.hidden {
+  display: none;
+}
+
+.signupdata {
+  display: inline-block;
+  display: flex;
+}
