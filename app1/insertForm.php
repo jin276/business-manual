@@ -3,6 +3,7 @@ require_once(__DIR__ . '/config.php');
 
 $edit_css = 'edit.css';
 $title = 'Insert Page';
+$h1 = "手順の追加";
 include 'header.php';
 
 if (empty($_SESSION['userId'])) {
@@ -35,11 +36,12 @@ $stepRemark = $_SESSION['stepRemark'] ?? '';
             <td>
               <textarea name="stepRemark"><?= htmlspecialchars($stepRemark, ENT_QUOTES); ?></textarea>
             </td>
-
           </table>
 
-          <a href="index.php">戻る</a>
-          <button type="submit">内容を確認する</button>
+          <div class="transition-btn">
+            <a href="index.php">戻る</a>
+            <button type="submit">内容を確認する</button>
+          </div>
         </form>
       </div>
     </main>
