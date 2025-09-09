@@ -3,6 +3,7 @@ require_once(__DIR__ . '/config.php');
 
 $edit_css = 'edit.css';
 $title = 'Insert Page(confirm)';
+$h1 = "内容の確認";
 include 'header.php';
 
 if (empty($_SESSION['userId'])) {
@@ -22,10 +23,6 @@ $_SESSION['stepRemark'] = $_POST['stepRemark'] ?? '';
 // $stepRemark = $_SESSION['stepRemark'];
 
 ?>
-
-        <div class="title">
-          <h1>内容を確認する</h1>
-        </div>
     
         <form action="insertUpdate.php" method="post">
           <table>
@@ -49,9 +46,9 @@ $_SESSION['stepRemark'] = $_POST['stepRemark'] ?? '';
             <p>「手順」は必須項目です。</p>
           </div>
 
-          <div class="insertdata">
-            <button type="submit" id="insertButton">手順を追加する</button>
+          <div class="transition-btn">
             <a href="index.php">戻る</a>
+            <button type="submit" id="insertButton">手順を追加する</button>
           </div>
         </form>
       </div>

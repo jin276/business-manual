@@ -43,7 +43,7 @@ $_SESSION['stepRemark'] = $_POST['stepRemark'];
               </td>
             </table>
 
-            <div class="button">
+            <div class="transition-btn">
               <a href="edit.php">戻る</a>
               <button type="submit">登録</button>
             </div>

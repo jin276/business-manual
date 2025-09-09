@@ -3,6 +3,7 @@ require(__DIR__ . '/config.php');
 
 $edit_css = 'edit.css';
 $title = 'Edit Page';
+$h1 = "手順の編集";
 include 'header.php';
 
 if (empty($_SESSION['userId'])) {

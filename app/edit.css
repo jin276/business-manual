@@ -27,3 +27,8 @@ textarea {
 .transition-btn a {
   margin-right: 8px;
 }
+
+#insertError {
+  color: red;
+  text-align: center;
+}

@@ -17,9 +17,6 @@ $results = isNull($pdo);
 $number = 1;
 ?>
 
-        <div class="title">
-          <h1><?= htmlspecialchars($h1 ?? "マニュアルを更新しました。");?></h1>
-        </div>
         <div class="create-record">
           <form action="insertform.php" method="post">
             <button type="submit">手順を追加する</button>

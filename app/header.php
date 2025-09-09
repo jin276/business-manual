@@ -40,7 +40,7 @@ require_once(__DIR__ . '/config.php');
 
         <div class="header-menu">
 
-          <a href="index.php">キッティング</a>
+          <a href="index.php">PCキッティング</a>
           <a href="#">スマートフォン</a>
           <a href="#">DB</a>
           <a href="#">MS365</a>
@@ -57,3 +57,7 @@ require_once(__DIR__ . '/config.php');
  
     <main>
       <div class="container">
+      
+      <div class="title">
+        <h1><?= htmlspecialchars($h1 ?? "更新しました。");?></h1>
+      </div>
